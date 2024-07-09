@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  before_save :downcase_email
+  PERMITTED_ATTRIBUTES = %i(name email password password_confirmation).freeze
 
   validates :name, presence: true, length: {maximum: Settings.max_name_length}
   validates :email, presence: true,
@@ -9,6 +9,8 @@ class User < ApplicationRecord
   has_secure_password
   validates :password, presence: true,
                     length: {minimum: Settings.min_password_length}
+
+  before_save :downcase_email
 
   private
 

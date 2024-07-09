@@ -38,9 +38,14 @@ en:
     home: "Home"
     help: "Help"
     login: "Log in"
+    sign_up: "Sign up"
     english: "English"
     vietnamese: "Vietnamese"
     base_title: "Ruby on Rails Tutorial Sample App"
+  shared:
+    error_messages:
+      error: "errors"
+      form_contain: "The form contains"
   static_pages:
     home:
       heading: "Welcome to the Sample App"
@@ -63,3 +68,15 @@ en:
       paragraph_html: "Contact the
                   <a href=%{source}>Ruby on Rails Tutorial</a>
                   about the sample app at the contact page."
+  users:
+    new:
+      sign_up: "Sign up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirmation"
+      submit: "Create my account"
+    show:
+      user_not_found: "User not found"
+    create:
+      welcome: "Welcome to the Sample App!"
