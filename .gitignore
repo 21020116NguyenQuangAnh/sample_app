@@ -32,3 +32,5 @@
 /config/database.yml
 /config/credentials.yml.enc
 /test/*
+
+.gitattributes
