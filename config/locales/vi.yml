@@ -1,0 +1,36 @@
+vi:
+  hello: "Xin chào"
+  layouts:
+    about: "Giới thiệu"
+    contact: "Liên hệ"
+    news: "Tin tức"
+    sample_app: "Ứng dụng mẫu"
+    home: "Trang chủ"
+    help: "Trợ giúp"
+    login: "Đăng nhập"
+    english: "Tiếng Anh"
+    vietnamese: "Tiếng Việt"
+    base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  static_pages:
+    home:
+      heading: "Chào mừng đến với Ứng dụng Mẫu"
+      paragraph_html: "Đây là trang chủ của
+                      <a href=%{source}>Hướng dẫn Ruby on Rails</a>
+                      ứng dụng mẫu."
+      sign_up: "Đăng ký ngay!"
+    help:
+      heading: "Trợ giúp"
+      paragraph_html: "Nhận trợ giúp về
+                      <a href=%{source}>Hướng dẫn Ruby on Rails</a>
+                      tại trang trợ giúp của Hướng dẫn Ruby on Rails."
+    about:
+      heading: "Giới thiệu"
+      paragraph_html: "Hướng dẫn
+                      <a href=%{source}>Ruby on Rails</a>
+                      là một cuốn sách và loạt video hướng dẫn để dạy phát triển web với
+                      <a href=%{source}>Ruby on Rails</a>."
+    contact:
+      heading: "Liên hệ"
+      paragraph_html: "Liên hệ với
+                      <a href=%{source}>Hướng dẫn Ruby on Rails</a>
+                      về ứng dụng mẫu tại đây"

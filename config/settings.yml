@@ -1,0 +1,6 @@
+servers:
+  tutorials: https://www.railstutorial.org/
+  rails: http://rubyonrails.org/
+  help: https://www.railstutorial.org/help
+  contact: https://www.railstutorial.org/contact
+  news: https://news.railstutorial.org/
