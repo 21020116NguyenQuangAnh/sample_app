@@ -8,9 +8,14 @@ vi:
     home: "Trang chủ"
     help: "Trợ giúp"
     login: "Đăng nhập"
+    sign_up: "Đăng ký"
     english: "Tiếng Anh"
     vietnamese: "Tiếng Việt"
     base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  shared:
+    error_messages:
+      error: "lỗi"
+      form_contain: "Biểu mẫu chứa"
   static_pages:
     home:
       heading: "Chào mừng đến với Ứng dụng Mẫu"
@@ -34,3 +39,15 @@ vi:
       paragraph_html: "Liên hệ với
                       <a href=%{source}>Hướng dẫn Ruby on Rails</a>
                       về ứng dụng mẫu tại đây"
+  users:
+    new:
+      sign_up: "Đăng ký"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      submit: "Đăng ký"
+    show:
+      user_not_found: "Không tìm thấy người dùng"
+    create:
+      welcome: "Chào mừng đến với Ứng dụng!"
