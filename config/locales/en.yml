@@ -39,6 +39,11 @@ en:
     help: "Help"
     login: "Log in"
     sign_up: "Sign up"
+    logout: "Log out"
+    users: "Users"
+    profile: "Profile"
+    settings: "Settings"
+    account: "Account"
     english: "English"
     vietnamese: "Vietnamese"
     base_title: "Ruby on Rails Tutorial Sample App"
@@ -46,6 +51,14 @@ en:
     error_messages:
       error: "errors"
       form_contain: "The form contains"
+  sessions:
+    new:
+      email: "Email"
+      password: "Password"
+      new_user: "New user?"
+      sign_up_now: "Sign up now!"
+    create:
+      invalid: "Invalid email and password combination"
   static_pages:
     home:
       heading: "Welcome to the Sample App"

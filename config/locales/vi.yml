@@ -9,9 +9,22 @@ vi:
     help: "Trợ giúp"
     login: "Đăng nhập"
     sign_up: "Đăng ký"
+    logout: "Đăng xuất"
+    users: "Người dùng"
+    profile: "Hồ sơ"
+    settings: "Cài đặt"
+    account: "Tài khoản"
     english: "Tiếng Anh"
     vietnamese: "Tiếng Việt"
     base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  sessions:
+    new:
+      email: "Email"
+      password: "Mật khẩu"
+      new_user: "Người dùng mới?"
+      sign_up_now: "Đăng ký ngay!"
+    create:
+      invalid: "Kết hợp email và mật khẩu không hợp lệ"
   shared:
     error_messages:
       error: "lỗi"
