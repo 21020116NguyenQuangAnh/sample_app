@@ -23,6 +23,7 @@ vi:
       password: "Mật khẩu"
       new_user: "Người dùng mới?"
       sign_up_now: "Đăng ký ngay!"
+      remember_me: "Ghi nhớ tôi trên máy tính này"
     create:
       invalid: "Kết hợp email và mật khẩu không hợp lệ"
   shared:

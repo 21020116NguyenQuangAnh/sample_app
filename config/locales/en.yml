@@ -57,6 +57,7 @@ en:
       password: "Password"
       new_user: "New user?"
       sign_up_now: "Sign up now!"
+      remember_me: "Remember me on this computer"
     create:
       invalid: "Invalid email and password combination"
   static_pages:
