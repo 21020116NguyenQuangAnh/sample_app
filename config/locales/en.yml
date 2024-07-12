@@ -94,3 +94,23 @@ en:
       user_not_found: "User not found"
     create:
       welcome: "Welcome to the Sample App!"
+      failed: "Sign up failed"
+    edit:
+      edit_user: "Edit User"
+      update_profile: "Update your profile"
+      gravatar: "Gravatar Email"
+      submit: "Save changes"
+      change: "Change"
+    update:
+      failed: "Update failed"
+      success: "Profile updated"
+    error:
+      please_log_in: "Please log in."
+      not_correct_user: "You are not the correct user."
+    index:
+      all_users: "All users"
+    destroy:
+      success: "User deleted"
+      failed: "Delete failed"
+      confirm: "Are you sure?"
+    delete: "Delete"

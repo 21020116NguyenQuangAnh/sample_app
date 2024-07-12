@@ -61,7 +61,28 @@ vi:
       password: "Mật khẩu"
       password_confirmation: "Xác nhận mật khẩu"
       submit: "Đăng ký"
+      please_log_in: "Vui lòng đăng nhập."
     show:
       user_not_found: "Không tìm thấy người dùng"
     create:
       welcome: "Chào mừng đến với Ứng dụng!"
+      failed: "Đăng ký thất bại"
+    edit:
+      edit_user: "Chỉnh sửa người dùng"
+      update_profile: "Cập nhật hồ sơ"
+      gravatar: "Email Gravatar"
+      submit: "Cập nhật"
+      change: "Thay đổi"
+    update:
+      failed: "Cập nhật thất bại"
+      success: "Cập nhật thành công"
+    error:
+      please_log_in: "Vui lòng đăng nhập."
+      not_correct_user: "Bạn không phải là người dùng đúng."
+    index:
+      all_users: "Tất cả người dùng"
+    destroy:
+      success: "Người dùng đã bị xóa"
+      failed: "Xóa người dùng thất bại"
+      confirm: "Bạn có chắc chắn muốn xóa người dùng này?"
+    delete: "Xóa"
