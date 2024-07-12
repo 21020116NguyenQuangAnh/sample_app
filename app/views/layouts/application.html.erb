@@ -7,6 +7,7 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
   </head>
   <body>
     <%= render "layouts/header" %>
@@ -14,8 +15,6 @@
       <% flash.each do |message_type, message| %>
         <div class="alert alert-<%= message_type %>"><%= message %></div>
       <% end %>
-      <%= link_to t("layouts.english"), locale: :en %>
-      <%= link_to t("layouts.vietnamese"), locale: :vi %>
       <%= yield %>
       <%= render "layouts/footer" %>
     </div>
