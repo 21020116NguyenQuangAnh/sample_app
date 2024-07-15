@@ -10,7 +10,8 @@ class User < ApplicationRecord
                     uniqueness: true
   has_secure_password
   validates :password, presence: true,
-                    length: {minimum: Settings.min_password_length}
+                    length: {minimum: Settings.min_password_length},
+                    allow_nil: true
 
   before_save :downcase_email
 
@@ -32,6 +33,7 @@ class User < ApplicationRecord
   def remember
     self.remember_token = User.new_token
     update_attribute :remember_digest, User.digest(remember_token)
+    remember_digest
   end
 
   def authenticated? remember_token
@@ -40,6 +42,10 @@ class User < ApplicationRecord
 
   def forget
     update_attribute :remember_digest, nil
+  end
+
+  def session_token
+    remember_digest || remember
   end
 
   private
