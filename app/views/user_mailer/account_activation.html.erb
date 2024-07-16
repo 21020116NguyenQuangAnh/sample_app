@@ -2,4 +2,5 @@
 <p><%= t ".hello", name: @user.name %>, </p>
 <p><%= t ".click_link" %></p>
 <%= link_to t(".activate"), edit_account_activation_url(id: @user.activation_token,
-                                                        email: @user.email) %>
+                                                        email: @user.email,
+                                                        locale: I18n.locale) %>
