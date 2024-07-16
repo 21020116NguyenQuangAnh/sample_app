@@ -119,6 +119,17 @@ aside {
       margin-top: 0px;
     }
   }
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }
+}
+
+span.picture {
+  margin-top: 10px;
+  input {
+    border: 0;
+  }
 }
 
 .gravatar {
@@ -187,5 +198,53 @@ input {
     overflow: auto;
     padding: 10px 0;
     border-bottom: 1px solid $gray-lighter;
+  }
+}
+
+/* Microposts */
+.microposts {
+  list-style: none;
+  padding: 0;
+  li {
+  padding: 10px 0;
+  border-top: 1px solid $gray-medium-light;
+  }
+  .user {
+  margin-top: 5em;
+  padding-top: 0;
+  }
+  .gravatar {
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+  }
+  .content {
+    display: block;
+    margin-left: 60px;
+    img {
+    display: block;
+    padding: 5px 0;
+    }
+  }
+  .timestamp {
+    color: $gray;
+    display: block;
+    margin-left: 60px;
+  }
+}
+
+/* Image link */
+image-link {
+  display: inline-block;
+
+  img {
+    width: 200px;
+    alt: "Rails logo";
+  }
+
+  &.kitten {
+    img {
+      alt: "Kitten";
+    }
   }
 }

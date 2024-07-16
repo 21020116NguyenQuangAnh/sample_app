@@ -51,6 +51,12 @@ en:
     error_messages:
       error: "errors"
       form_contain: "The form contains"
+    micropost_form:
+      post: "Post"
+      compose: "Compose new micropost..."
+    user_info:
+      view_profile: "View my profile"
+      microposts: "microposts"
   sessions:
     new:
       email: "Email"
@@ -69,6 +75,7 @@ en:
                   <a href=%{source}>Ruby on Rails Tutorial</a>
                   sample application."
       sign_up: "Sign up now!"
+      feed: "Micropost Feed"
     help:
       heading: "Help"
       paragraph_html: "Get help on the
@@ -94,6 +101,7 @@ en:
       submit: "Create my account"
     show:
       user_not_found: "User not found"
+      microposts: "Microposts"
     create:
       welcome: "Welcome to the Sample App!"
       failed: "Sign up failed"
@@ -129,7 +137,7 @@ en:
       click_link: "To reset your password click the link below:"
       reset: "Reset password"
       expired: "This link will expire in two hours."
-      ignore: "If you did not request your password reset to be reset, please ignore this email and your password will stay as it is."
+      ignored: "If you did not request your password reset to be reset, please ignore this email and your password will stay as it is."
   account_activations:
     edit:
       invalid: "Invalid activation link"
@@ -153,3 +161,18 @@ en:
       password_empty: "Password can't be empty"
       password_reset: "Password has been reset"
       expired: "This link has expired. Please request a new password reset link."
+  microposts:
+    create:
+      success: "Micropost created!"
+    destroy:
+      success: "Micropost deleted"
+      failed: "Delete failed"
+      invalid: "Invalid User"
+    micropost:
+      delete: "Delete"
+      confirm: "Are you sure?"
+      ago: "ago"
+    image:
+      alert: "Maximum file size is 5MB. Please choose a smaller file."
+      limit_size: "Image size must be less than %{size}MB."
+      valid: "Invalid image format. Please choose a valid format."

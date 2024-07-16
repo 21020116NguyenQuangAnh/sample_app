@@ -32,6 +32,12 @@ vi:
     error_messages:
       error: "lỗi"
       form_contain: "Biểu mẫu chứa"
+    micropost_form:
+      post: "Đăng"
+      compose: "Viết bài viết mới..."
+    user_info:
+      view_profile: "Xem hồ sơ của tôi"
+      microposts: "bài viết"
   static_pages:
     home:
       heading: "Chào mừng đến với Ứng dụng Mẫu"
@@ -39,6 +45,7 @@ vi:
                       <a href=%{source}>Hướng dẫn Ruby on Rails</a>
                       ứng dụng mẫu."
       sign_up: "Đăng ký ngay!"
+      feed: "Bài viết"
     help:
       heading: "Trợ giúp"
       paragraph_html: "Nhận trợ giúp về
@@ -66,6 +73,7 @@ vi:
       please_log_in: "Vui lòng đăng nhập."
     show:
       user_not_found: "Không tìm thấy người dùng"
+      microposts: "Bài viết"
     create:
       welcome: "Chào mừng đến với Ứng dụng!"
       failed: "Đăng ký thất bại"
@@ -125,3 +133,18 @@ vi:
       password_empty: "Mật khẩu không thể để trống"
       password_reset: "Mật khẩu đã được đặt lại"
       expired: "Đường dẫn này đã hết hạn. Vui lòng yêu cầu một liên kết đặt lại mật khẩu mới."
+  microposts:
+    create:
+      success: "Bài viết đã được tạo"
+    destroy:
+      success: "Bài viết đã bị xóa"
+      failed: "Xóa bài viết thất bại"
+      invalid: "Người dùng không hợp lệ"
+    micropost:
+      delete: "Xóa"
+      confirm: "Bạn có chắc chắn muốn xóa bài viết này?"
+      ago: "trước"
+    image:
+      alert: "Kích thước file tối đa là 5MB. Vui lòng chọn file nhẹ hơn."
+      limit_size: "Kích thước ảnh phải nhỏ hơn %{size}MB."
+      valid: "Định dạng ảnh không hợp lệ. Vui lòng chọn định dạng hợp lệ."

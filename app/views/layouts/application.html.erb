@@ -8,6 +8,8 @@
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <%= javascript_include_tag "i18n" %>
+    <%= javascript_include_tag "translations", skip_pipeline: true %>
   </head>
   <body>
     <%= render "layouts/header" %>
@@ -17,6 +19,10 @@
       <% end %>
       <%= yield %>
       <%= render "layouts/footer" %>
+      <script type="text/javascript">
+        I18n.defaultLocale = "<%= I18n.default_locale %>";
+        I18n.locale = "<%= I18n.locale %>";
+      </script>
     </div>
   </body>
 </html>
