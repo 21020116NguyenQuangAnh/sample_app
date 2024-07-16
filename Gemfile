@@ -7,6 +7,7 @@ gem "bootsnap", require: false
 gem "bootstrap-sass", "3.4.1"
 gem "config", "~> 3.0"
 gem "faker", "2.21.0"
+gem "figaro"
 gem "importmap-rails"
 gem "jbuilder"
 gem "mysql2", "~> 0.5"

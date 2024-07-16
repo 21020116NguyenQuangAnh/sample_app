@@ -60,6 +60,7 @@ en:
       remember_me: "Remember me on this computer"
     create:
       invalid: "Invalid email and password combination"
+      not_activated: "Account not activated. Check your email for the activation link."
   static_pages:
     home:
       heading: "Welcome to the Sample App"
@@ -95,6 +96,7 @@ en:
     create:
       welcome: "Welcome to the Sample App!"
       failed: "Sign up failed"
+      check_email: "Please check your email to activate your account."
     edit:
       edit_user: "Edit User"
       update_profile: "Update your profile"
@@ -114,3 +116,14 @@ en:
       failed: "Delete failed"
       confirm: "Are you sure?"
     delete: "Delete"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      sample_app: "Sample App"
+      hello: "Hi %{name}"
+      click_link: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+  account_activations:
+    edit:
+      invalid: "Invalid activation link"
+      activated: "Account activated!"

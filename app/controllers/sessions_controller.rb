@@ -4,7 +4,11 @@ class SessionsController < ApplicationController
   def create
     user = find_user
     if authenticated_user? user
-      handle_successful_login user
+      if user.activated?
+        handle_successful_login user
+      else
+        handle_failed_activated_user
+      end
     else
       handle_failed_login
     end
@@ -40,5 +44,10 @@ class SessionsController < ApplicationController
   def handle_failed_login
     flash.now[:danger] = t "sessions.create.invalid"
     render :new, status: :unprocessable_entity
+  end
+
+  def handle_failed_activated_user
+    flash[:warning] = t "sessions.create.not_activated"
+    redirect_to root_url, status: :see_other
   end
 end

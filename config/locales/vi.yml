@@ -26,6 +26,7 @@ vi:
       remember_me: "Ghi nhớ tôi trên máy tính này"
     create:
       invalid: "Kết hợp email và mật khẩu không hợp lệ"
+      not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để lấy liên kết kích hoạt."
   shared:
     error_messages:
       error: "lỗi"
@@ -67,6 +68,7 @@ vi:
     create:
       welcome: "Chào mừng đến với Ứng dụng!"
       failed: "Đăng ký thất bại"
+      check_email: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản."
     edit:
       edit_user: "Chỉnh sửa người dùng"
       update_profile: "Cập nhật hồ sơ"
@@ -86,3 +88,14 @@ vi:
       failed: "Xóa người dùng thất bại"
       confirm: "Bạn có chắc chắn muốn xóa người dùng này?"
     delete: "Xóa"
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+      sample_app: "Ứng dụng mẫu"
+      hello: "Xin chào %{name}"
+      click_link: "Nhấn vào đường dẫn bên dưới để kích hoạt tài khoản của bạn:"
+      activate: "Kích hoạt tài khoản"
+  account_activations:
+    edit:
+      invalid: "Liên kết kích hoạt không hợp lệ"
+      activated: "Tài khoản đã được kích hoạt"
