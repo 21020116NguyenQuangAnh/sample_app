@@ -57,6 +57,9 @@ en:
     user_info:
       view_profile: "View my profile"
       microposts: "microposts"
+    stats:
+      following: "Following"
+      followers: "Followers"
   sessions:
     new:
       email: "Email"
@@ -125,6 +128,11 @@ en:
       failed: "Delete failed"
       confirm: "Are you sure?"
     delete: "Delete"
+    follow: "Follow"
+    unfollow: "Unfollow"
+    show_follow:
+      microposts: "Microposts"
+      view_my_profile: "View my profile"
   user_mailer:
     account_activation:
       subject: "Account activation"
@@ -176,3 +184,6 @@ en:
       alert: "Maximum file size is 5MB. Please choose a smaller file."
       limit_size: "Image size must be less than %{size}MB."
       valid: "Invalid image format. Please choose a valid format."
+  relationships:
+    show:
+      not_found: "Relationship not found"

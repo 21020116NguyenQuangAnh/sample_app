@@ -48,6 +48,18 @@ class UsersController < ApplicationController
     end
   end
 
+  def following
+    @title = t "shared.stats.following"
+    @pagy, @users = pagy @user.following, items: Settings.page_10
+    render :show_follow
+  end
+
+  def followers
+    @title = t "shared.stats.followers"
+    @pagy, @users = pagy @user.followers, items: Settings.page_10
+    render :show_follow
+  end
+
   private
 
   def admin_user
