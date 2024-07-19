@@ -38,6 +38,9 @@ vi:
     user_info:
       view_profile: "Xem hồ sơ của tôi"
       microposts: "bài viết"
+    stats:
+      following: "Theo dõi"
+      followers: "Người theo dõi"
   static_pages:
     home:
       heading: "Chào mừng đến với Ứng dụng Mẫu"
@@ -97,6 +100,11 @@ vi:
       failed: "Xóa người dùng thất bại"
       confirm: "Bạn có chắc chắn muốn xóa người dùng này?"
     delete: "Xóa"
+    follow: "Theo dõi"
+    unfollow: "Bỏ theo dõi"
+    show_follow:
+      microposts: "Bài viết"
+      view_my_profile: "Xem hồ sơ của tôi"
   user_mailer:
     account_activation:
       subject: "Kích hoạt tài khoản"
@@ -148,3 +156,6 @@ vi:
       alert: "Kích thước file tối đa là 5MB. Vui lòng chọn file nhẹ hơn."
       limit_size: "Kích thước ảnh phải nhỏ hơn %{size}MB."
       valid: "Định dạng ảnh không hợp lệ. Vui lòng chọn định dạng hợp lệ."
+  relationships:
+    show:
+      not_found: "Không tìm thấy quan hệ"

@@ -9,6 +9,7 @@ max_image_size: 5
 gravatar:
   size: 80
   user_size: 50
+  user_small_size: 30
 servers:
   tutorials: https://www.railstutorial.org/
   rails: http://rubyonrails.org/
